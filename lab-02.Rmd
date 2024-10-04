@@ -16,19 +16,19 @@ library(readxl)
 ## Load & join data sets
 
 ```{r load-data, message = FALSE}
-# Member 2 (pair 1) write code to load File 1 data here:
+
+data1 <- read_csv("data/mismanaged-plastic-waste-per-capita.csv")
+
+
+data2 <- read_csv2("data/per-capita-ocean-plastic-waste.txt")
 
 
 
-# Member 4 (pair 2) write code to load File 2 data here:
+data3 <- read_tsv("data/UN_country_population.tsv")
 
 
 
-# Member 6 (pair 3) write code to load File 3 data here:
-
-
-
-# Member 1 (pair 1) write code to load File 4 data here:
+data4 <- read_excel("data/UN_country_region.xlsx")
 
 
 
